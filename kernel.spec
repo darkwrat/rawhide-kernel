@@ -118,7 +118,7 @@ Summary: The Linux kernel
 %global zcpu `nproc --all`
 %endif
 
-# define buildid .local
+%define buildid .local
 
 
 %if 0%{?fedora}
